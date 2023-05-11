@@ -1,6 +1,9 @@
 ### Termux-ADB
 Install ADB &amp; FastBoot Tools in Termux!<br/>
 For devices with ARM or ARM64 processors only!
+### How to use
+Enable debugging over wifi and disable debugging authorization (```setprop ro.adb.secure=0```)
+Then ```adb connect localhost:<port>```
 ### How to install
 - <b>Silent installation:</b></br>
 Copy and paste the following command in Termux to silently install Tools:<br/>
